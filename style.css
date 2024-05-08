@@ -1,0 +1,137 @@
+body{
+    font-family: 'mukta',sans-serif;
+}
+
+header img{
+height:60%;
+width: 70%;
+}
+.header{
+    height: 30vh;
+}
+
+p{
+    font-size: 14px;
+}
+.heading{
+    color: #023c94;
+    font-size: 600;
+}
+p{
+    text-align: justify;
+}
+.heading-title {
+    border-left: 10px solid red;
+    background-color: #004a84;
+    height: 50px;
+    padding-top: 10px;
+}
+element {
+
+    display: block;
+
+}
+#backToTop {
+
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    z-index: 99;
+    right: 30px;
+    border:none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    height:5%;
+    width: 2%;
+    
+}
+a{
+    text-decoration: none;
+}
+.fa-solid, .fas {
+    color: white;
+  }
+
+  .backToTop {
+
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    z-index: 99;
+    right: 30px;
+    border:none;
+    outline: none;
+    background-color:white;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    height:5%;
+    width: 2%;
+    
+}
+
+ 
+  .ticker{    
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    right: 0px;
+  
+    z-index: 20;}
+    .news{width: 100%;background: #ffd700;}
+           .news-title{width: 100px;text-align: center;background: hwb(350 94% 4%);position: absolute; z-index: 10;height: 50px;}
+           .news-title:after{position: absolute;content: "";right: -40px;border-left: 20px solid #f3edee;border-top: 30px solid transparent;border-right: 20px solid transparent;border-bottom: 21px solid transparent;top: 0px} 
+           .news-title h5{font-size: 18px;margin: 9% 0;color: #fff;} 
+           .news marquee{font-size: 20px;margin-top:10px}
+           .news-content p{margin-right: 20px;display: inline;color: #2e0808;}
+            
+           .modal {
+            /* display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0; */
+            width: 60%;
+            margin-left: 250px;
+            height: 95%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.4);
+          }
+          
+          .modal-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+          }
+          
+          .modal-content img {
+            max-width: 80%;
+            max-height: 80%;
+          }
+          
+          .close {
+            color: #aaa;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+          }
+          
+          /* .close:hover,
+          .close:focus {
+            color: black;
+            text-decoration: none;
+          }
+          
+ */
+
+ 
